@@ -1,0 +1,98 @@
+@import _variables
+@import _palette
+@import _about
+@import _facts
+
+#mainNav
+	background-color: $verde
+	a
+		color: $white
+.bg-what
+	+bg-what
+.what-img
+	height: 50%
+	img
+		+what-img
+		margin: 10%
+	 
+.shadow-ora
+	+shadow
+	padding: 3%
+
+.mobile
+	background-color: #084E25
+	background-size: cover
+	width: 25%
+	padding: 2% 7%
+	height: 286px
+
+		//inicio team 
+.team-bg
+	@extend .bg-what
+	color: #666
+	h2,h5
+		color: $white
+		// inicio price------
+
+.price-bg
+	@extend .bg
+	text-align: $center
+	.cont-dentro
+		text-align: $center
+	.purchase
+		background-color: #1D1F20
+		height: 40px
+		width: 100px
+		color: white
+		text-transform: uppercase
+.feature
+	margin-bottom: 25%
+	border: 2px solid #DF7401!important
+
+	.gris
+		background-color: #50400C
+
+.cont
+	margin-top: 50px
+	border: 2px solid $verde 
+	text-align: $center
+span
+	font-weight: bolder
+	font-size: 26px
+.text-gray
+	background-color: $white
+	color: #000
+.bg-gray
+	background-color: $verde
+// inicio clients
+.bg-clients
+	@extend .bg
+	text-align: $center
+.text-clients
+	color: #fa6900
+
+.pd-b
+	height: 100px
+	margin-left: 25%
+#contact
+	.bg-contact
+		+palette
+		background-image: url("../img/img-divider-img.jpg")
+		padding: 15% 0%
+		text-align: center
+	.fa
+		color: $white
+.bg-footer
+	@extend .bg-what
+.heigth-f
+	border: 1px $white solid
+	width: 70px
+.subscribe
+	background-color: $azul-bg
+	border: none
+	margin-top: 2%
+	padding: 1%
+.i-footer
+	background-color: $azul-bg
+	color: #DF7401
+	padding: 1.8%  	 			 		

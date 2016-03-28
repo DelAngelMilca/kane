@@ -1,0 +1,265 @@
+#palette {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  color: #FDFBF9;
+  background-image: url(../img/carousel-bg.jpg);
+  margin-top: 50px;
+  padding-left: 17%;
+  padding-top: 10%;
+  font-size: 25px;
+  text-align: center; }
+
+h1, h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.text-font {
+  font-size: 40px;
+  text-align: center; }
+
+.heigth {
+  width: 250px;
+  border: 2px solid #666; }
+
+.mini-color {
+  margin-top: 25px;
+  text-align: center; }
+
+.color {
+  margin-right: -200px;
+  margin-left: 30px; }
+
+.height-mini {
+  height: 130px;
+  margin-left: -32px; }
+
+.uno {
+  background-color: #69D2E7; }
+
+.dos {
+  background-color: #a7dbdb; }
+
+.tres {
+  background-color: #E0E4CC; }
+
+.cuatro {
+  background-color: #f38630; }
+
+.cinco {
+  background-color: #fa6900; }
+
+.uno1 {
+  background-color: #E94C6F; }
+
+.dos2 {
+  background-color: #542733;
+  color: #fff; }
+
+.tres3 {
+  background-color: #5A6A62; }
+
+.cuatro4 {
+  background-color: #C6D5CD; }
+
+.cinco5 {
+  background-color: #FDF200; }
+
+.uno-1 {
+  background-color: #DB3340; }
+
+.dos-2 {
+  background-color: #E8B71A; }
+
+.tres-3 {
+  background-color: #F7EAC8; }
+
+.cuatro-4 {
+  background-color: #1FDA9A; }
+
+.cinco-5 {
+  background-color: #28ABE3; }
+
+.uno-uno {
+  background-color: #588C73; }
+
+.dos-dos {
+  background-color: #F2E394; }
+
+.tres-tres {
+  background-color: #F2AE72; }
+
+.cuatro-cuatro {
+  background-color: #D96459; }
+
+.cinco-cinco {
+  background-color: #8C4646; }
+
+.prim {
+  background-color: #D0C91F; }
+
+.sec {
+  background-color: #85C4B9; }
+
+.ter {
+  background-color: #008BBA; }
+
+.cuarto {
+  background-color: #DF514C; }
+
+.quinto {
+  background-color: #DC403B; }
+
+#about {
+  margin-top: 150px; }
+
+.img-about img {
+  height: 400px;
+  width: 400px; }
+
+.bg, .bg-facts, .price-bg, .bg-clients {
+  background-color: #05052D;
+  padding: 5%;
+  color: #fff; }
+
+.f-margin {
+  font-size: 12px; }
+
+.bg-facts {
+  text-align: center; }
+  .bg-facts textarea {
+    height: 180px;
+    width: 100%;
+    background: #fff;
+    font-size: 20px;
+    border: 2px #888 solid; }
+  .bg-facts input {
+    font-size: 20px;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    margin-bottom: 15px;
+    height: 30px; }
+
+.submit {
+  background-color: #666;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  border-style: none;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+#mainNav {
+  background-color: #24AB5D; }
+  #mainNav a {
+    color: #fff; }
+
+.bg-what, .team-bg, .bg-footer {
+  background-color: #1FDA9A;
+  padding: 5%;
+  color: #fff;
+  text-align: center; }
+
+.what-img {
+  height: 50%; }
+  .what-img img {
+    height: 100px;
+    width: 100px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-image: url("../img/icon-bg.png");
+    background-color: #05052D;
+    text-align: center;
+    margin: 10%; }
+
+.shadow-ora {
+  background-color: #DF7401 !important;
+  height: 80px !important;
+  width: 80px !important;
+  padding: 3%; }
+
+.mobile {
+  background-color: #084E25;
+  background-size: cover;
+  width: 25%;
+  padding: 2% 7%;
+  height: 286px; }
+
+.team-bg {
+  color: #666; }
+  .team-bg h2, .team-bg h5 {
+    color: #fff; }
+
+.price-bg {
+  text-align: center; }
+  .price-bg .cont-dentro {
+    text-align: center; }
+  .price-bg .purchase {
+    background-color: #1D1F20;
+    height: 40px;
+    width: 100px;
+    color: white;
+    text-transform: uppercase; }
+
+.feature {
+  margin-bottom: 25%;
+  border: 2px solid #DF7401 !important; }
+  .feature .gris {
+    background-color: #50400C; }
+
+.cont {
+  margin-top: 50px;
+  border: 2px solid #24AB5D;
+  text-align: center; }
+
+span {
+  font-weight: bolder;
+  font-size: 26px; }
+
+.text-gray {
+  background-color: #fff;
+  color: #000; }
+
+.bg-gray {
+  background-color: #24AB5D; }
+
+.bg-clients {
+  text-align: center; }
+
+.text-clients {
+  color: #fa6900; }
+
+.pd-b {
+  height: 100px;
+  margin-left: 25%; }
+
+#contact .bg-contact {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  color: #FDFBF9;
+  background-image: url("../img/img-divider-img.jpg");
+  padding: 15% 0%;
+  text-align: center; }
+#contact .fa {
+  color: #fff; }
+
+.heigth-f {
+  border: 1px #fff solid;
+  width: 70px; }
+
+.subscribe {
+  background-color: #05052D;
+  border: none;
+  margin-top: 2%;
+  padding: 1%; }
+
+.i-footer {
+  background-color: #05052D;
+  color: #DF7401;
+  padding: 1.8%; }
+
+/*# sourceMappingURL=main.css.map */
